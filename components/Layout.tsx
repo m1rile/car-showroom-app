@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import Image from 'next/image'
 import CustomButton from './CustomButton'
@@ -18,20 +18,23 @@ const Layout = () => {
                     booking cars.
                 </p>
 
-                <CustomButton 
-                title="Explore Cars" 
-                containerStyles="bg-primary-blue text-white rounded-full mt-10"
-                handleClick={handleScroll} 
+                <CustomButton
+                    title="Explore Cars"
+                    containerStyles="bg-primary-blue text-white rounded-full mt-10"
+                    handleClick={handleScroll}
                 />
 
-                <div className='layout__image-container'>
-                    <div className='layout__image'>
-                        <Image src="/layout.png" alt='layout' fill className='object-contain' />
+                <div className="layout__image-container">
+                    <div className="layout__image">
+                        <Image
+                            src="/layout.png"
+                            alt="layout"
+                            fill
+                            className="object-contain"
+                        />
                     </div>
 
-                    <div className='layout__image-overlay'>
-                        
-                    </div>
+                    <div className="layout__image-overlay"></div>
                 </div>
             </div>
         </div>
