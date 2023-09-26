@@ -1,5 +1,4 @@
-import Layout from "./Layout";
+import Layout from './Layout'
+import CustomButton from './CustomButton'
 
-export {
-    Layout
-}
+export { Layout, CustomButton }
